@@ -1,9 +1,8 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
 function Header({ text }) {
   return (
-    <header>
+    <header style={{ backgroundColor: 'black', color: 'red' }}>
       <div className="container">
         <h2>{text}</h2>
       </div>
